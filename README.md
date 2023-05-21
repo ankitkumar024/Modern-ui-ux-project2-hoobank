@@ -109,13 +109,14 @@ Refer to the respective service's documentation for detailed instructions on dep
 5. Create a new file called 'postcss.config.js' in your project's root directory and add the following code:
 
    module.exports = {
-   plugins: [
-   require('tailwindcss'),
-   require('autoprefixer'),
-   ],
+    plugins: [
+        require('tailwindcss'),
+        require('autoprefixer'),
+    ],
    };
 
 6. In your project's 'index.css' file (or any other CSS file where you want to use Tailwind CSS), import the Tailwind CSS styles by adding the following line at the beginning:
+
     @import 'tailwindcss/base';
     @import 'tailwindcss/components';
     @import 'tailwindcss/utilities';
@@ -127,6 +128,6 @@ That's it! Tailwind CSS is now installed and ready to use in your Vite.js projec
 
 # Resources
 
-Vite.js Documentation
-React.js Documentation
-Tailwind CSS Documentation
+    Vite.js Documentation
+    React.js Documentation
+    Tailwind CSS Documentation
