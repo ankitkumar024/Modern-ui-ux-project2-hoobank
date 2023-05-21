@@ -19,7 +19,7 @@ Follow the steps below to get started with this project:
 
 bash
 
-- $ git clone <git@github.com:ankitkumar024/Modern-ui-ux-project-gpt.git>
+- $ gh repo clone ankitkumar024/Modern-ui-ux-project2-hoobank
 
 2. Open a terminal or command prompt and navigate to the project's root directory.
 
