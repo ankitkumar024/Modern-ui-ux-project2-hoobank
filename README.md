@@ -47,17 +47,17 @@ Once you have installed the project dependencies, you can use the following npm 
 
 The project structure is organized as follows:
 
-├── public
-│ └── index.html
-├── src
-│ ├── components
-│ ├── styles
-│ ├── App.jsx
-│ └── index.jsx
-├── tailwind.config.js
-├── .gitignore
-├── package.json
-└── README.md
+    ├── public
+    │ └── index.html
+    ├── src
+    │ ├── components
+    │ ├── styles
+    │ ├── App.jsx
+    │ └── index.jsx
+    ├── tailwind.config.js
+    ├── .gitignore
+    ├── package.json
+    └── README.md
 
 - public: Contains the HTML file (index.html) used as the entry point for your application.
 
