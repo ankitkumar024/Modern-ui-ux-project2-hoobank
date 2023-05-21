@@ -108,18 +108,17 @@ Refer to the respective service's documentation for detailed instructions on dep
 
 5. Create a new file called 'postcss.config.js' in your project's root directory and add the following code:
 
-   module.exports = {
-    plugins: [
-        require('tailwindcss'),
-        require('autoprefixer'),
-    ],
-   };
+    module.exports = {
+        plugins: [
+            require('tailwindcss'),
+            require('autoprefixer'),
+        ],
+    };
 
 6. In your project's 'index.css' file (or any other CSS file where you want to use Tailwind CSS), import the Tailwind CSS styles by adding the following line at the beginning:
-
-   @import 'tailwindcss/base';
-   @import 'tailwindcss/components';
-   @import 'tailwindcss/utilities';
+    @import 'tailwindcss/base';
+    @import 'tailwindcss/components';
+    @import 'tailwindcss/utilities';
 
 7. Finally, you can start using Tailwind CSS utility classes in your HTML or React components.
 
